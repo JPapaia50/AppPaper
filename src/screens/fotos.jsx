@@ -1,0 +1,56 @@
+import { Image, StyleSheet, Text, View } from "react-native";
+
+export const Fotos = () => (
+    <View>
+        <center><Image
+
+            source={{
+
+                uri: "data:image/jpeg;base64,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",
+
+            }}
+
+            style={styles.imagem}
+
+        ></Image></center>
+        <center><Text>Nascida com a missão de revolucionar a tecnologia espacial, a companhia projeta, fabrica e lança foguetes que entregam cargas na órbita terrestre. Apesar disso, o foco principal da SpaceX é permitir que as pessoas possam habitar e ter acesso a outros planetas. Isto é, tornar a vida multiplanetária.</Text></center>
+
+        <center><Image
+
+            source={{
+
+                uri: "https://www.showmetech.com.br/wp-content/uploads/2016/05/foguete-da-spacex-falcon-9-video-360-720x480.jpg",
+
+            }}
+
+            style={styles.imagem}
+
+        ></Image></center>
+        <center><Text>Nasa contrata SpaceX para missões à Lua
+            Para a proposta de pouso na Lua, a SpaceX apresentou a nave espacial reutilizável Starship, projetada para transportar grandes tripulações e cargas para viagens espaciais ao espaço profundo, e fazer um pouso vertical tanto na Terra quanto em outros corpos celestes.</Text></center>
+        <center><Image
+
+            source={{
+
+                uri: "https://s2.glbimg.com/ZUwzOUZSKJYIWHtex3j0hZemXTc=/0x0:620x380/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/e/T/MnGGrPTOK8Ro0uJyuT7w/2018-02-06-tesla-roadster-sera-lancado-ao-espaco-em-teste-do-foguete-falcon-heavy.jpg",
+
+            }}
+
+            style={styles.imagem}
+
+        ></Image></center>
+        <center><Text>Nascida com a missão de revolucionar a tecnologia espacial, a companhia projeta, fabrica e lança foguetes que entregam cargas na órbita terrestre. Apesar disso, o foco principal da SpaceX é permitir que as pessoas possam habitar e ter acesso a outros planetas. Isto é, tornar a vida multiplanetária.</Text></center>
+    </View>
+);
+
+const styles = StyleSheet.create({
+
+    imagem: {
+
+        width: 250,
+
+        height: 250,
+
+    },
+
+});
